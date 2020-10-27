@@ -1,0 +1,36 @@
+Bugfix
+update try catch when set target.__proto__ (fix #9329) #10117
+feat(update-listeners.js): allow pass undefined or null to event handler #10099
+fix(v-on): add removing all dom event listeners when vnode destroyed #10085
+Prevent rerender of child components that use $listeners (fix #7257) #10073
+fix(keep-alive): bug prune oldest entry #10015
+feat(ssr): add ability to set SSR content placeholder #9946
+fix(examples/select2): Prevents the change event from firing twice #9938
+feat: check if a tag is already in window.customElements (#8855) #9919
+fix(webpack): production preload files #9802
+fix(typings): wrongly typed AsyncComponentFactory #9787
+Fix( unit ): using the. exact modifier error when all system modifiers #9776
+#9772 TypeScript: Vue types $attrs should be type Record<string, any> #9773
+
+
+
+Feature
+feat(warn): warn computed conflict with methods #10119
+feat: add a prop named `error` to the ErrorComponent when load async … #10037
+feat: improve `transition-group` support `keep-alive`(#10021) #10026
+feat(model): add .eager modifier to v-model #9814
+feat(v-on): v-on support listeners array #9765
+feat(computed): pass component instance as second argument in setter #9674
+
+Other, please describe: Docs update
+docs: use yarn instead of npm in scripts section #10024
+test(node): node can be generated with comments #9937
+docs: fixing grammar errors #9872
+fix(types): support accessing inject as string array (#8969) #9732
+chore(transition): improve warning when usuing invalid mode #9636
+
+Code style update
+
+Refactor
+perf(utils): cache list length in loops #10066
+refactor(keep-alive): cache what is really needed not the whole VNode… #9962
